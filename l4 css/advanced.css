@@ -1,0 +1,47 @@
+body{
+color:black;
+background-color:blanchedalmond;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    color:antiquewhite;
+    background-color:blue;
+ }
+ a{
+    text-decoration:none;
+    color:azure;
+    background-color:blue;
+
+ }
+ a:hover{
+    background-color:rgb(161, 161, 223);
+    color:blueviolet;
+
+ }
+ ul  li:hover{
+    background-color:green;
+ }
+ ul>li{
+    color:rgb(226, 43, 43)
+ }
+ ul li:nth-child(3){
+    background-color:lightskyblue;
+
+ }
+ p::first-letter{
+    font-size:200%;
+    color:orange;
+ }
+ ul li::before {
+
+    content: "🚀 ";
+    
+    }
+    
+    /* ::after Pseudo-element */
+    
+    a::after {
+    
+    content: " 🌌";
+    
+    }
